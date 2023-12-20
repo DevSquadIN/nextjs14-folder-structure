@@ -1,13 +1,13 @@
 import type { Metadata, Viewport } from "next"
 
-import "@/styles/globals.css"
+import "@styles/globals.css"
 
-import { LayoutProps as RootLayoutProps } from "@/types/root"
-import { siteConfig } from "@/config/site"
-import { fontSans } from "@/lib/fonts"
-import { cn } from "@/lib/utils"
-import Footer from "@/components/footer"
-import Header from "@/components/header"
+import Footer from "@/common/components/footer"
+import Header from "@/common/components/header"
+import { siteConfig } from "@/common/config/site"
+import { fontSans } from "@/common/lib/fonts"
+import { cn } from "@/common/lib/utils"
+import { LayoutProps as RootLayoutProps } from "@/common/types/root"
 
 export const metadata: Metadata = {
   title: {
@@ -25,7 +25,7 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
-      <body className={cn("antialiased", fontSans.variable)}>
+      <body className={cn("container antialiased", fontSans.variable)}>
         <Header />
         {children}
         <Footer />
