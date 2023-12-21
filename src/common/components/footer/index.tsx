@@ -11,6 +11,7 @@ export default function Footer() {
         <Link
           href="https://blog.dennisokeeffe.com/blog/2021-12-06-nextjs-enterprise-project-structure"
           rel="noopener noreferrer"
+          target="_blank"
         >
           <p className="flex items-start gap-0.5">
             1. Next.js Enterprise Project Structure.{" "}
@@ -20,6 +21,7 @@ export default function Footer() {
         <Link
           href="https://josemukorivo.com/blog/how-i-approach-and-structure-enterprise-frontend-applications-after-4-years-of-using-nextjs-2f5"
           rel="noopener noreferrer"
+          target="_blank"
         >
           <p className="flex items-start gap-0.5">
             2. How I approach and structure enterprise frontend applications
