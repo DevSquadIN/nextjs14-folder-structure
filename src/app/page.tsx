@@ -4,7 +4,7 @@ import { Separator } from "@components/ui/separator"
 
 export default function Home() {
   return (
-    <main className="mx-auto my-10 min-h-[78vh] max-w-3xl space-y-8">
+    <main className="mx-auto my-10 min-h-[72.5vh] max-w-3xl space-y-8">
       <div className="space-y-8">
         {folderConfig.map((each, index) =>
           each.subFolders ? (
