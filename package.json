@@ -1,5 +1,6 @@
 {
-  "name": "nexjs14-folder-structure",
+  "name": "nextjs14-folder-structure",
+  "description": "Enterprise project structure for NextJS applications.",
   "version": "0.1.0",
   "private": true,
   "scripts": {
