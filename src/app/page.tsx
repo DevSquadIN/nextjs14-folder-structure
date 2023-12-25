@@ -1,7 +1,6 @@
 import React from "react"
+import { folderConfig } from "@/src/config/folder"
 import { Separator } from "@components/ui/separator"
-
-import { folderConfig } from "@/config/folder"
 
 export default function Home() {
   return (

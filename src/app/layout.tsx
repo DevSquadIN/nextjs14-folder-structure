@@ -4,11 +4,11 @@ import "@/styles/globals.css"
 
 import Footer from "@components/footer"
 import Header from "@components/header"
-import { siteConfig } from "config/site"
-import { fontSans } from "lib/fonts"
-import { cn } from "lib/utils"
+import { siteConfig } from "@src/config/site"
 
 import { LayoutProps as RootLayoutProps } from "@/types/root"
+import { fontSans } from "@/lib/fonts"
+import { cn } from "@/lib/utils"
 
 export const metadata: Metadata = {
   title: {
