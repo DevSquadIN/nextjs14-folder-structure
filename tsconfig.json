@@ -22,9 +22,9 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"],
-      "@components/*": ["src/common/components/*"],
-      "@styles/*": ["src/common/styles/*"],
+      "@/*": ["./*"],
+      "@src": ["./src/*"],
+      "@components/*": ["src/components/*"],
       "@modules/*": ["src/modules/*"]
     }
   },
