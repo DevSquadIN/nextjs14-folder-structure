@@ -1,4 +1,4 @@
-export const siteConfig = {
+export const SITE_CONFIG = {
   name: "Folder Structure",
   description: "NextJS 14 Enterprise Folder Structure",
   themeColor: [
@@ -10,4 +10,4 @@ export const siteConfig = {
     shortcut: "/favicon-16x16.png",
     apple: "/apple-touch-icon.png",
   },
-}
+} as const

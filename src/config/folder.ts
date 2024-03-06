@@ -1,4 +1,4 @@
-export const folderConfig = [
+export const FOLDER_CONFIG = [
   {
     folderName: "__tests__",
     desc: "This folder contains all 'tests'.",
@@ -110,4 +110,4 @@ export const folderConfig = [
       { href: "sup-2", body: 2 },
     ],
   },
-]
+] as const

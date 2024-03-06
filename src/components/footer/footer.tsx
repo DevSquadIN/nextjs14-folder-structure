@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { ExternalLinkIcon } from "lucide-react"
 
-export default function Footer() {
+export const Footer = () => {
   return (
     <footer className="py-4">
       <h1 className="pb-3 text-sm font-bold text-gray-700">

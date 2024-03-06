@@ -2,7 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { FolderTreeIcon } from "lucide-react"
 
-export default function Header() {
+export const Header = () => {
   return (
     <header className="flex items-center justify-between border-b py-4">
       <FolderTreeIcon className="h-12 w-12 text-indigo-800" />
