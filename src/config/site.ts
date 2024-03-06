@@ -1,4 +1,4 @@
-export const siteConfig = {
+export const SITE_CONFIG = {
   name: "Folder Structure",
   description: "NextJS 14 Enterprise Folder Structure",
   themeColor: [
