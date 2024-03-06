@@ -10,4 +10,4 @@ export const SITE_CONFIG = {
     shortcut: "/favicon-16x16.png",
     apple: "/apple-touch-icon.png",
   },
-} as const
+}

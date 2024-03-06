@@ -4,7 +4,7 @@ import "@/styles/globals.css"
 
 import { Footer } from "@components/footer"
 import { Header } from "@components/header"
-import { siteConfig } from "@src/config/site"
+import { SITE_CONFIG } from "@src/config/site"
 
 import { LayoutProps as RootLayoutProps } from "@/types/root"
 import { fontSans } from "@/lib/fonts"
@@ -12,15 +12,15 @@ import { cn } from "@/lib/utils"
 
 export const metadata: Metadata = {
   title: {
-    default: siteConfig.name,
-    template: `%s - ${siteConfig.name}`,
+    default: SITE_CONFIG.name,
+    template: `%s - ${SITE_CONFIG.name}`,
   },
-  description: siteConfig.description,
-  icons: siteConfig.icons,
+  description: SITE_CONFIG.description,
+  icons: SITE_CONFIG.icons,
 }
 
 export const viewport: Viewport = {
-  themeColor: siteConfig.themeColor,
+  themeColor: SITE_CONFIG.themeColor,
 }
 
 export default function RootLayout({ children }: RootLayoutProps) {
