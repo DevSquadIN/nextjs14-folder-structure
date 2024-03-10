@@ -25,7 +25,7 @@ export const FOLDER_CONFIG = [
   },
   {
     folderName: "src/app",
-    desc: "This directory contains your UI components. It's further subdivided into ui for generic 'UI' components and other folders depending on SOC.",
+    desc: "NextJS app directory.",
     link: [{ href: "sup-1", body: 1 }],
   },
   {
